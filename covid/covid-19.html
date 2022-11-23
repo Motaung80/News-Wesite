@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>one.point</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://cdn.jsdelivr.net/gh/StephanWagner/svgMap@v2.7.1/dist/svgMap.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/Picsart_22-03-12_11-19-52-764.png">
+            </div>
+            <ul class="nev">
+                <input type="checkbox" id="checkbox_toggle" />
+                <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+                <div class="menu">
+                    <li id="today"><a href="../today.html"><img src="img/check.png">Today</a></li>
+                    <li><a href="../SA/southafrica.html"><img src="img/icons8-south-africa-48.png">South Africa</a></li>
+                    <li><a href="covid-19.html"><img src="img/icons8-coronavirus-50.png">Covid-19</a></li>
+                    <li><a href="../cal/cal.html"><img src="img/calendar.png">Calendar</a></li>
+                </div>
+            </ul>
+        </header>
+        <hr>
+        <div class="covid">
+            <h1><i>Covid-19</i><img src="img/coronaa.png" style="width: 3.5%"></h1>
+        </div>
+        <section>
+            <div>
+                <div class="container1">
+                    <div class="m1">
+                        <h3>Covid-19 Cases</h3>
+                        <h4 id="cases">3,693,532</h4>
+                    </div>
+                    <div class="m1">
+                        <h3>Covid-19 Recorveries</h3>
+                        <h4 id="recoveries">3,573,469</h4>
+                    </div>
+                    <div class="m1">
+                        <h3>Covid-19 Death</h3>
+                        <h4 id="deaths">39</h4>
+                    </div>
+                    <div class="m1">
+                        <h3>Daily Covid-19:</h3>
+                        <ul>
+                            <li>Cases: <strong id="D_cases">454</strong></li>
+                            <li>Recoveries: <strong id="D_recoveries">564</strong></li>
+                            <li>Death: <strong id="D_death">65</strong></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="svgMap"></div>
+            <div class="graph">
+                <div>
+                    <canvas id="myChart"></canvas>
+                </div>
+                <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>                 
+            </div>
+        </section>
+        <script src="main.js"></script>
+        <script src="covid-19.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/svg-pan-zoom@3.6.1/dist/svg-pan-zoom.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/StephanWagner/svgMap@v2.7.1/dist/svgMap.min.js"></script>
+    </body>
+</html>

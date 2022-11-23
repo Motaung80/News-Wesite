@@ -1,0 +1,219 @@
+body { 
+    background-color: #92A8D1;
+    padding:20px 150px 20px 150px;
+}
+.cl1{
+    color: black;
+}
+header {
+    height: 110px;
+    max-width: 1150px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #92A8D1;
+}
+
+.num1{
+    background-image: url("../img/ukraine.jpg");
+    margin: 10px;
+    margin-bottom: 80px;
+    width: 880px;
+    padding: 150px;
+    line-height: 20px;
+    color: rgb(28, 200, 230);
+    text-align: end;
+    border-radius: .8rem;
+}
+
+.num1 .h{
+    font-size: 50px;
+}
+
+.num1 .p{
+    font-size: 30px;
+}
+
+.num1:hover{
+    box-shadow:0px 0px 5px 7px rgb(24, 36, 145);
+    transform:scale(0.9);
+    transition: 0.3s;
+}
+
+header ul {
+    display: flex;
+}
+
+.logo img{
+    width: 250px;
+}
+
+.nev img{
+    width: 20px;
+}
+
+header a{
+    padding: 10px;
+    margin: 0 5px;
+    color: black;
+}
+
+header a:hover{
+    border-bottom: 3px rgb(12, 1, 1) solid;
+    box-shadow:0px 0px 5px 7px rgb(24, 36, 145);
+    transform:scale(0.9);
+    transition: 0.3s;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.day{
+    text-align: center;
+}
+
+.srh{
+    text-align: right;
+}
+
+.d-flex{
+    position: relative;
+    display: inline-block;
+    font-size: 25px;
+    box-sizing: border-box;
+    transition: .5s;
+}
+
+.d-flex input{
+    background: #fff;
+    width: 300px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding: 0 24px;
+    border-radius: 25px 0 0 25px;
+}
+
+.d-flex button{
+    position: relative;
+    border-radius: 0 25px 25px 0;
+    width: 150px;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background:rgb(99, 105, 160);
+}
+
+/*.table{
+    text-align: center;
+    position: relative;
+    margin:auto;
+    width:100%;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    padding:0px;
+}
+
+table td{
+    padding:20px;
+}
+
+.m1{
+    background-color: rgb(85, 95, 241);
+    box-shadow: 0px 0px 15px 2px rgb(24, 36, 145);
+    padding:20px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.m1:hover{
+    box-shadow:0px 0px 5px 7px rgb(24, 36, 145);
+    transform:scale(0.9);
+    transition: 0.3s;
+}
+
+.footer{
+    font-weight:lighter;
+    font-size:20px;
+    padding:10px
+}*/
+
+/*NEW*/
+
+/*.rowm-3{
+    text-align: center;
+    position: relative;
+    margin:auto;
+    width:100%;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    padding:0px;
+}
+
+.rowme-2ms-2{
+    text-align: center;
+    position: relative;
+    margin:auto;
+    width:100%;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    padding:0px;
+}*/
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  
+  .boxes .box{
+    background: rgb(181, 197, 226);
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color: #0e0c0c;  
+    position: relative;
+    border-radius: .8rem;
+  }
+  
+  .boxes .box:hover{
+    box-shadow:0px 0px 5px 7px rgb(24, 36, 145);
+    transform:scale(0.9);
+    transition: 0.3s;
+  }
+
+.boxes .btn_read{
+    color: aliceblue;
+    position: relative;
+    border-radius: 25px;
+    width: 410px;
+    height: 110px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background:rgb(99, 105, 160);
+}
+
+.boxes .btn_read:hover{
+    box-shadow:0px 0px 5px 7px rgb(99, 105, 160);
+    transform:scale(0.9);
+    transition: 0.3s;
+}

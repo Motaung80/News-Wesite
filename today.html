@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>one.point</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/Picsart_22-03-12_11-19-52-764.png">
+            </div>
+            <ul class="nev">
+                <input type="checkbox" id="checkbox_toggle" />
+                <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+                <div class="menu">
+                    <li id="today"><a href="today.html"><img src="img/check.png">Today</a></li>
+                    <li><a href="SA/southafrica.html"><img src="img/icons8-south-africa-48.png">South Africa</a></li>
+                    <li><a href="covid/covid-19.html"><img src="img/icons8-coronavirus-50.png">Covid-19</a></li>
+                    <li><a href="cal/cal.html"><img src="img/calendar.png">Calendar</a></li>
+                </div>
+            </ul>
+        </header>
+        <hr class="cl1">
+        <div class="srh">
+            <form class="d-flex">
+                <input class="in-srh" type="text" id="newsQuery" placeholder="Search news">
+                <button class="srh-btn" type="button" id="searchBtn">Search</button>
+            </form>
+        </div>
+        <section>
+            <div class="load">
+                <div class="rowm-3" id="newsType"></div>
+                <div class="rowme-2ms-2" id="newsdetails"></div>
+            </div>
+        </section>
+
+        <script src="today.js"></script>
+    </body>
+</html>

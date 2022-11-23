@@ -1,0 +1,136 @@
+body { 
+    background-color: #92A8D1;
+}
+
+header {
+    height: 110px;
+    max-width: 1150px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #92A8D1;
+}
+
+header ul {
+    display: flex;
+}
+
+.logo img{
+    width: min(50vw, 200px);
+}
+
+.nev img{
+    width: 20px;
+}
+
+header a{
+    padding: 10px;
+    margin: 0 5px;
+    color: black;
+}
+
+header a:hover{
+    border-bottom: 3px rgb(12, 1, 1) solid;
+    box-shadow:0px 0px 5px 7px rgb(24, 36, 145);
+    transform:scale(0.9);
+    transition: 0.3s;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+}
+
+.menu li:hover {
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+.menu li {
+    padding: 5px 14px;
+}
+
+
+input[type=checkbox]{
+    display: none;
+}
+.hamburger {
+    display: none;
+    font-size: 24px;
+    user-select: none;
+}
+   
+@media (max-width: 950px) {
+    .menu { 
+        display:none;
+        position: absolute;
+        background-color:#7498dc;
+        right: 0;
+        left: 0;
+        text-align:center;
+        padding: 16px 0;
+   }
+   .menu li:hover {
+        box-shadow:0px 0px 0px 0px rgb(24, 36, 145);
+        transform:scale(0.9);
+        transition: 0.3s;
+   }
+   .menu li + li {
+        margin-top: 12px;
+   }
+   input[type=checkbox]:checked ~ .menu{
+        display: block;
+   }
+   .hamburger {
+        display: block;
+   }
+}
+.covid{
+    text-align: center;
+}
+
+.container1{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  
+  .container1 .m1{
+    background: rgb(181, 197, 226);
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color: #0e0c0c;  
+    position: relative;
+  }
+
+  .container1 .m1:hover{
+    box-shadow:0px 0px 5px 7px rgb(24, 36, 145);
+    transform:scale(0.9);
+    transition: 0.3s;
+}
+  
+  .container1 .m1 h3{
+    color: #000000;
+    font-size: 26px;
+    margin-top: 50px;
+  }
+
+.graph{
+    text-align: center;
+}

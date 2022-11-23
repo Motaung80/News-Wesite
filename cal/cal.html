@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>one.point</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/Picsart_22-03-12_11-19-52-764.png">
+            </div>
+            <ul class="nev">
+                <input type="checkbox" id="checkbox_toggle" />
+                <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+                <div class="menu">
+                    <li id="today"><a href="../today.html"><img src="img/check.png">Today</a></li>
+                    <li><a href="../SA/southafrica.html"><img src="img/icons8-south-africa-48.png">South Africa</a></li>
+                    <li><a href="../covid/covid-19.html"><img src="img/icons8-coronavirus-50.png">Covid-19</a></li>
+                    <li><a href="cal.html"><img src="img/calendar.png">Calendar</a></li>
+                </div>
+            </ul>
+        </header>
+        <section>
+          <div class="container">
+            <div class="calendar">
+              <div class="month">
+                <i class="fas fa-angle-left prev"></i>
+                <div class="date">
+                  <h1></h1>
+                  <p></p>
+                </div>
+                <i class="fas fa-angle-right next"></i>
+              </div>
+              <div class="weekdays">
+                <div>Sun</div>
+                <div>Mon</div>
+                <div>Tue</div>
+                <div>Wed</div>
+                <div>Thu</div>
+                <div>Fri</div>
+                <div>Sat</div>
+              </div>
+              <div class="days"></div>
+            </div>
+          </div>
+        </section>
+      
+          <script src="cal.js"></script>
+          <script src="sk.js"></script>
+    </body>
+</html>
